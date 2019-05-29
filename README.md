@@ -13,7 +13,7 @@ This application is packaged as a war which has Tomcat 8 embedded. No Tomcat or 
 ```
         java -jar -Dspring.profiles.active=test target/spring-boot-rest-example-0.5.0.war
 or
-        mvn spring-boot:run -Drun.arguments="spring.profiles.active=test"
+        mvn spring-boot:run -Drun.arguments="spring.profiles.active=test1"
 ```
 * Check the stdout or boot_example.log file to make sure no exceptions are thrown
 
